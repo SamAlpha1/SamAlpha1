@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-labelledby="title desc">
+  <title id="title">SamAlpha1 — Security tooling, agent controls, and Web3 infrastructure</title>
+  <desc id="desc">A dark technical banner for the SamAlpha1 GitHub profile.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07111f"/>
+      <stop offset="0.55" stop-color="#0b1f36"/>
+      <stop offset="1" stop-color="#101827"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2f81f7"/>
+      <stop offset="1" stop-color="#39d0d8"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1280" height="320" rx="28" fill="url(#bg)"/>
+  <g fill="none" stroke="#2f81f7" stroke-width="1" opacity=".22">
+    <path d="M0 58h240l48 48h210"/>
+    <path d="M1280 65h-250l-54 54H790"/>
+    <path d="M0 270h350l44-44h116"/>
+    <path d="M1280 264H940l-42-42H760"/>
+    <circle cx="245" cy="58" r="5" fill="#39d0d8"/>
+    <circle cx="1028" cy="65" r="5" fill="#39d0d8"/>
+    <circle cx="350" cy="270" r="5" fill="#39d0d8"/>
+    <circle cx="940" cy="264" r="5" fill="#39d0d8"/>
+  </g>
+  <g transform="translate(88 80)" fill="none" stroke="url(#accent)" stroke-width="7" stroke-linejoin="round" filter="url(#glow)">
+    <path d="M72 0l66 24v52c0 51-29 88-66 108C35 164 6 127 6 76V24z"/>
+    <path d="M43 88l20 20 40-48"/>
+  </g>
+  <text x="270" y="138" fill="#f0f6fc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="68" font-weight="750" letter-spacing="4">SAMALPHA1</text>
+  <text x="274" y="188" fill="#9fb3c8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22" font-weight="600" letter-spacing="2.6">SECURITY TOOLING · AGENT CONTROLS · WEB3 INFRASTRUCTURE</text>
+  <g font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="1.4">
+    <rect x="274" y="220" width="150" height="38" rx="19" fill="#102f55" stroke="#2f81f7"/>
+    <text x="300" y="244" fill="#7cc4ff">FAIL CLOSED</text>
+    <rect x="438" y="220" width="146" height="38" rx="19" fill="#10323d" stroke="#39d0d8"/>
+    <text x="465" y="244" fill="#78e7ed">AUDITABLE</text>
+    <rect x="598" y="220" width="178" height="38" rx="19" fill="#192a43" stroke="#6ea8fe"/>
+    <text x="622" y="244" fill="#a8c7fa">DETERMINISTIC</text>
+  </g>
+</svg>
